@@ -22,11 +22,14 @@ public class BankAccount {
     public void deposit(double amount)
     {
         balance=balance+amount;
+      //  System.out.println("Balance is: "+ balance);
     }
     public void withdraw(double amount)
     {
-        if(balance>amount)
-        balance=balance-amount;
+        if(balance>amount) {
+            balance = balance - amount;
+         //   System.out.println("Balance is: " + balance);
+        }
         else
             System.out.println("Not having sufficient balance");
     }

@@ -4,10 +4,19 @@ import java.util.Scanner;
 
 public class MainBankAccount {
     public static void main(String[] args) {
-        /*
+
         String accountHolderName;
         String accountNumber;
         double balance;
+
+        BankAccount BAcnt=new BankAccount("Pam","1234",2000);
+BAcnt.withdraw(200);
+BAcnt.displayAccountInfo();
+        System.out.println();
+        BankAccount BAcnt1=new BankAccount("Sam","4567",4000);
+        BAcnt1.deposit(300);
+        BAcnt1.displayAccountInfo();
+        /*
 
         BankAccount B1=new BankAccount("", "","")
 
